@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const Add = () => {
+    alert("Hi");
+  }
   return (
     <div className="App">
       <div className="Container">
@@ -9,7 +12,7 @@ function App() {
           <div className="main-head"><span className="Heading">Manage Your Todos</span></div>
           <div className="Add">
             <input type="text" className="Tf" placeholder="Add New todo" id="add"/>
-            <button className="Addbutton" >Add</button>
+            <button className="Addbutton" onClick={Add} >Add</button>
           </div>
           <div className="Alltodos">
             <div className="todolist"><span>Todo List</span></div>
