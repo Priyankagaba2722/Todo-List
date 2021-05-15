@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+
+.Container{
+    /* background-color: blue; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* position: relative; */
+    /* opacity: 20%; */
+}
+
+.Todo{
+    height: 500px;
+    width: 60vw;
+    border: 2px solid black;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Add{
+    /* width: 80%; */
+    /* height: 7%; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    /* background-color: brown; */
+    border-radius: 2px;
+    
+}
+
+.Tf{
+    width: 500px;
+    height: 25px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    border: 1px solid #9c9898;
+    padding: 22px;
+}
+
+.Addbutton{
+    width: 70px;
+    background-color: rgb(30, 110, 230);
+    color: white;
+    height: 46px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+    /* padding: 2px; */
+    text-align: center;
+}
+
+.main-head{
+    width: 570px;
+    margin-bottom: 20px;
+}
+
+.Heading {
+    color: #6d6969;
+    font-weight: bold;
+    font-size: 32px;
+    height: 10%;
+    /* margin-bottom: 20px; */
+    
+}
+
+.Alltodos{
+    /* border: brown 2px solid; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Alltodos > .Content > span{
+    color: blue;
+}
+
+.todolist{
+    margin-top: 40px;
+    width: 570px;
+}
+
+.todolist > span{
+    font-size: 24px;
+    font-weight: bold;
+    color: #6d6969;
+    
+}
+
+.list{
+    width: 570px;
+}
+
+.list > span{
+    font-size: 18px;
+    color: #6d6969;
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9c9898;
+    border-radius: 5px;
+}
+
+.item{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    border-bottom: 1px solid #c00d0d;    
+}
+
+.items :last-child(){
+    border: none;
+}
+
+.item > span{
+    color: #6d6969;
+}
+
+.complete{
+    background-color: rgb(172, 13, 13);
+    color: white;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 4px;
+}
+
